@@ -23,7 +23,7 @@ def reverse(x):
 # palindromic numbers
 
 def palindromic(x):
-	while x == reverse(x)
+	while x == reverse(x):
 		print("same")
 	else:
 		return reverse(x)
@@ -46,4 +46,4 @@ def composite(n):
 def substring(char, st):
 	while len(char) <= len(st):
 		if char in st:
-			print("char is in str")
+			print("character is in string")
