@@ -1,0 +1,49 @@
+# number of digits
+
+def numbers(x):
+    counter = 0
+    while x > 0:
+        counter += 1
+        x //= 10
+    return counter
+
+
+# reverse a number
+
+def reverse(x):
+    counter = 0
+    while x > 0:
+        y = numbers(x)
+        b = x % 10
+        b*=10**(x-1)
+        counter +=b
+    return counter
+
+
+# palindromic numbers
+
+def palindromic(x):
+	while x == reverse(x)
+		print("same")
+	else:
+		return reverse(x)
+
+
+# composite numbers
+
+def composite(n):
+	if n < 4:
+		return False
+	else :
+		for x in range(0,n):
+			for y in range(0,n):
+				while x*y == n and x<n and y<n:
+					print("composite number")
+
+
+# substring
+
+def substring(char, st):
+	while len(char) <= len(st):
+		if char in st:
+			print("char is in str")
